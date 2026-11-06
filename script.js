@@ -100,14 +100,14 @@ document.addEventListener("DOMContentLoaded", () => {
   const panel = document.querySelector(".team-info");
   if (!cards.length || !panel) return;
 
-  // sesuai urutan kartu
+ // sesuai urutan kartu
   const team = [
-    { name: "Nama Anggota 1", role: "UI/UX Designer", bio: "Suka ngerapihin tampilan sampai pixel-perfect.", skills: ["Figma", "Prototyping"] },
-    { name: "Nama Anggota 2", role: "Web Developer",  bio: "Bikin halaman web yang rapi dan responsif.",   skills: ["HTML", "CSS", "JS"] },
-    { name: "Nama Anggota 3", role: "App Developer",  bio: "Ngoprek aplikasi dari ide sampai jalan.",      skills: ["Flutter", "Firebase"] },
-    { name: "Nama Anggota 4", role: "Programmer",     bio: "Senang logika dan backend yang bersih.",       skills: ["PHP", "Laravel"] },
-    { name: "Nama Anggota 5", role: "Creative",       bio: "Pencetus ide dan konten visual kelompok.",     skills: ["Canva", "Editing"] },
-  ];
+  { name: "Zidane", role: "UI/UX Designer", bio: "Game 24/7.", skills: ["Figma", "Prototyping"] },
+  { name: "Aulia",  role: "UI/UX Designer", bio: " suka K-Pop, Drakor ",  skills: ["Figma", "Prototyping"] },
+  { name: "Rifqi",  role: "Web Developer",  bio: "Rifqi lagi bobo.",  skills: ["HTML", "CSS", "JS"] },
+  { name: "Razip",  role: "Web Developer",  bio: "suka ngulik music",  skills: ["HTML", "CSS", "JS"] },
+  { name: "Thia",   role: "Web Developer",  bio: "reading, writing, drawing, coding.",   skills: ["HTML", "CSS", "JS"] },
+];
 
   const $ = (id) => document.getElementById(id);
   let last = -1;
